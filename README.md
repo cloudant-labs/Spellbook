@@ -20,9 +20,9 @@ Design Document Recipes &amp; Reference for use with
 <table>
  <tr><th></th><th>Cloudant</th><th>Apache CouchDB</th></tr>
  <tr>
-  <td>example-ddoc-name</td>
+  <td>[doc-type-convention](tree/master/doc-type-convention)</td>
   <td>yes</td>
-  <td>version #+</td>
+  <td>1.0.0+</td>
  </tr>
 </table>
 
