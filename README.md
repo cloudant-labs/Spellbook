@@ -15,17 +15,6 @@ Design Document Recipes &amp; Reference for use with
 5. add it to this readme and report compatibility
 6. send us a Pull Request!
 
-## Compatibility Table
-
-<table>
- <tr><th></th><th>Cloudant</th><th>Apache CouchDB</th></tr>
- <tr>
-  <td>doc-type-convention</td>
-  <td>yes</td>
-  <td>1.0.0+</td>
- </tr>
-</table>
-
 ## License
 
 [MIT](http://opensource.org/licenses/mit)
