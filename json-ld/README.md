@@ -1,4 +1,4 @@
-# Add @context with JSON-LD & _show functions
+## Add @context with JSON-LD & _show functions
 
 > [JSON-LD](http://json-ld.org/) (JSON Linked Data) is a simple way of providing semantic meaning for the terms and values in a JSON document. Providing that meaning with the JSON means that the next developer's application can parse and understand the JSON you gave them.
 > https://cloudant.com/blog/webizing-your-database-with-linked-data-in-json-ld/
