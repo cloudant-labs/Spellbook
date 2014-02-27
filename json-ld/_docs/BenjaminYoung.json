@@ -1,0 +1,6 @@
+{
+  "_id": "BenjaminYoung",
+  "first_name": "Benjamin",
+  "last_name": "Young",
+  "knows": ["SimonMetson", "MaxThayer", "MikeMiller"]
+}
