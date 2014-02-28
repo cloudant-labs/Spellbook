@@ -1,7 +1,10 @@
 function (doc, req) {
   var tmp = doc;
+  var path = req.path;
+  path.pop(); // drop the current doc name
+  var base = "http://" + req.headers.Host + "/" + path.join("/") + "/";
   tmp['@context'] = {
-    "@base": "http://" + req.headers.Host + "/" + req.info.db_name + "/",
+    "@base": base,
     "_id": "@id",
     "first_name": "http://xmlns.com/foaf/0.1/givenName",
     "last_name": "http://xmlns.com/foaf/0.1/familyName",
